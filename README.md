@@ -1,7 +1,3 @@
-Here's a README file without the code snippets:
-
----
-
 # Alarm Clock Application
 
 This is a simple alarm clock application built using Python and the Tkinter library for the GUI, with additional libraries like PIL for image handling and pygame for sound. This application allows users to set an alarm for a specific time (hour, minute, and second) and plays a sound when the alarm time is reached.
@@ -33,7 +29,12 @@ This is a simple alarm clock application built using Python and the Tkinter libr
    pip install pillow pygame
    ```
 
-3. **Ensure you have the `alarm main.mp3` file in the same directory as your script**.
+3. **Install `tkinter` on Windows**:
+   ```bash
+   pip install tk
+   ```
+
+4. **Ensure you have the `alarm main.mp3` file in the same directory as your script**.
 
 ## Usage
 
@@ -56,3 +57,7 @@ This application provides a graphical user interface (GUI) where users can set a
 
 - **Comboboxes**: Allow users to select the hour, minute, and second for the alarm.
 - **Radiobuttons**: Provide options to activate and deactivate the alarm.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
